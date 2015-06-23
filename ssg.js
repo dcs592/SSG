@@ -36,6 +36,10 @@ $(document).ready(function() {
 		document.getElementById('section2').style.cssFloat = 'left';
 		document.getElementById('divider2').style.display = 'inline-block';
 		document.getElementById('section2').style.marginTop = '-8px';
+
+		document.getElementById('newstable1').style.width = '100%';
+		document.getElementById('newstable2').style.width = '100%';
+
 	}
 	else {
 		widthcheck = 0;
@@ -74,6 +78,9 @@ function Resize() {
 			document.getElementById('section2').style.cssFloat = 'left';
 			document.getElementById('divider2').style.display = 'inline-block';
 			document.getElementById('section2').style.marginTop = '-8px';
+
+			document.getElementById('newstable1').style.width = '100%';
+			document.getElementById('newstable2').style.width = '100%';
 		}
 		widthcheck = 1;
     }
@@ -106,6 +113,9 @@ function Resize() {
 			document.getElementById('section2').style.cssFloat = 'right';
 			document.getElementById('divider2').style.display = 'none';
 			document.getElementById('section2').style.marginTop = '-5px';
+
+			document.getElementById('newstable1').style.width = '50%';
+			document.getElementById('newstable2').style.width = '50%';
 		}
 		widthcheck = 0;
     }
