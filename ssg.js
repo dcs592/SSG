@@ -33,9 +33,9 @@ $(document).ready(function() {
 
 		document.getElementById('section1').style.width = '100%';
 		document.getElementById('section2').style.width = '100%';
-		document.getElementById('section2').style.cssFloat = 'left';
+		document.getElementById('section2').style.position = 'relative';
 		document.getElementById('divider2').style.display = 'inline-block';
-		document.getElementById('section2').style.marginTop = '-8px';
+		document.getElementById('section2').style.marginTop = '-30px';
 
 		document.getElementById('newstable1').style.width = '100%';
 		document.getElementById('newstable2').style.width = '100%';
@@ -116,9 +116,9 @@ function Resize() {
 
 			document.getElementById('section1').style.width = '100%';
 			document.getElementById('section2').style.width = '100%';
-			document.getElementById('section2').style.cssFloat = 'left';
+			document.getElementById('section2').style.position = 'relative';
 			document.getElementById('divider2').style.display = 'inline-block';
-			document.getElementById('section2').style.marginTop = '-8px';
+			document.getElementById('section2').style.marginTop = '-30px';
 
 			document.getElementById('newstable1').style.width = '100%';
 			document.getElementById('newstable2').style.width = '100%';
@@ -191,9 +191,9 @@ function Resize() {
 
 			document.getElementById('section1').style.width = '75%';
 			document.getElementById('section2').style.width = '25%';
-			document.getElementById('section2').style.cssFloat = 'right';
+			document.getElementById('section2').style.position = 'absolute';
 			document.getElementById('divider2').style.display = 'none';
-			document.getElementById('section2').style.marginTop = '-5px';
+			document.getElementById('section2').style.marginTop = '0';
 
 			document.getElementById('newstable1').style.width = '50%';
 			document.getElementById('newstable2').style.width = '50%';
@@ -242,5 +242,6 @@ function Resize() {
 		widthcheck = 0;
     }
 }
+
 
 window.addEventListener("resize", Resize);

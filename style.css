@@ -210,7 +210,7 @@ body {
 	position: relative;
 }
 
-#divider1 {
+#news {
 	position: relative;
 	display: inline-block;
 	width: 100%;
@@ -236,7 +236,33 @@ body {
 	padding: 0 0 0 0;
 }
 
-#divider3 {
+#aboutssg {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 8px;
+	background-color: rgb(255, 165, 0);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 0 0 5px 0;
+	padding: 0 0 0 0;
+}
+
+#ssgmusic {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 8px;
+	background-color: rgb(255, 165, 0);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 0 0 5px 0;
+	padding: 0 0 0 0;
+}
+
+#ssggallery {
 	position: relative;
 	display: inline-block;
 	width: 100%;
@@ -257,24 +283,27 @@ body {
 	text-decoration: underline;
 }
 
+#newsection {
+	width: 100%;
+	margin: -5px 0 0 0;
+	padding: 0 0 0 0;
+	position: relative;
+	overflow: hidden;
+}
+
 #section1 {
 	width: 75%;
-	margin-top: -5px;
-	min-height: 500px;
 	background-color: white;
 	float: left;
-	margin-bottom: 0px;
 }
 
 
 #section2 {
 	width: 25%;
-	margin-top: -5px;
-	margin-left: -2px;
-	min-height: 500px;
+	height: 100%;
 	background-color: #70C68D;
-	float: right;
-	border-left: 2px solid black;
+	position: absolute;
+	right: 0;
 }
 
 #newstable1 {
@@ -313,7 +342,6 @@ body {
 	color: white;
 	font-size: large;
 	float: left;
-	text-indent: 50px;
 }
 
 #descimage {
@@ -373,4 +401,23 @@ hr {
 	margin-top: -15px;
 	padding-bottom: 25px;
 }
+
+#gallery {
+	width: 100%;
+	margin-top: -15px;
+	display: inline-block;
+	position: relative;
+}
+
+#images {
+	padding-left: 8%;
+}
+
+#image {
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+
+
 
