@@ -32,10 +32,15 @@ $(document).ready(function() {
 		document.getElementById("menu").style.position = "absolute";
 
 		document.getElementById('section1').style.width = '100%';
+		document.getElementById('schedule').style.width = '100%';
 		document.getElementById('section2').style.width = '100%';
 		document.getElementById('section2').style.position = 'relative';
+		document.getElementById('section3').style.width = '100%';
+		document.getElementById('section3').style.position = 'relative';
 		document.getElementById('divider2').style.display = 'inline-block';
+		document.getElementById('divider3').style.display = 'inline-block';
 		document.getElementById('section2').style.marginTop = '-30px';
+		document.getElementById('section3').style.marginTop = '-30px';
 
 		document.getElementById('newstable1').style.width = '100%';
 		document.getElementById('newstable2').style.width = '100%';
@@ -46,6 +51,14 @@ $(document).ready(function() {
 		document.getElementById('descimage').style.cssFloat = "left";
 		document.getElementById('descimage').style.marginLeft = "5%";
 		document.getElementById('songdesc').style.fontSize = "medium";
+
+		document.getElementById('image1').style.width = '90%';
+
+		var images = document.getElementsByClassName("image");
+		var i;
+		for (i = 0; i < images.length; i++) {
+			images[i].style.width = "90%";
+		}
 
 		var d1 = document.getElementsByClassName("description2");
 		var i;
@@ -115,10 +128,15 @@ function Resize() {
 			document.getElementById("menu").style.position = "absolute";
 
 			document.getElementById('section1').style.width = '100%';
+			document.getElementById('schedule').style.width = '100%';
 			document.getElementById('section2').style.width = '100%';
 			document.getElementById('section2').style.position = 'relative';
+			document.getElementById('section3').style.width = '100%';
+			document.getElementById('section3').style.position = 'relative';
 			document.getElementById('divider2').style.display = 'inline-block';
+			document.getElementById('divider3').style.display = 'inline-block';
 			document.getElementById('section2').style.marginTop = '-30px';
+			document.getElementById('section3').style.marginTop = '-30px';
 
 			document.getElementById('newstable1').style.width = '100%';
 			document.getElementById('newstable2').style.width = '100%';
@@ -129,6 +147,14 @@ function Resize() {
 			document.getElementById('descimage').style.cssFloat = "left";
 			document.getElementById('descimage').style.marginLeft = "5%";
 			document.getElementById('songdesc').style.fontSize = "medium";
+
+			document.getElementById('image1').style.width = '90%';
+
+			var images = document.getElementsByClassName("image");
+			var i;
+			for (i = 0; i < images.length; i++) {
+				images[i].style.width = "90%";
+			}
 
 			var d1 = document.getElementsByClassName("description2");
 			var i;
@@ -190,10 +216,15 @@ function Resize() {
 			document.getElementById("menu").style.position = "fixed";
 
 			document.getElementById('section1').style.width = '75%';
+			document.getElementById('schedule').style.width = '60%';
 			document.getElementById('section2').style.width = '25%';
 			document.getElementById('section2').style.position = 'absolute';
+			document.getElementById('section3').style.width = '40%';
+			document.getElementById('section3').style.position = 'absolute';
 			document.getElementById('divider2').style.display = 'none';
+			document.getElementById('divider3').style.display = 'none';
 			document.getElementById('section2').style.marginTop = '0';
+			document.getElementById('section3').style.marginTop = '0';
 
 			document.getElementById('newstable1').style.width = '50%';
 			document.getElementById('newstable2').style.width = '50%';
@@ -204,6 +235,14 @@ function Resize() {
 			document.getElementById('descimage').style.cssFloat = "right";
 			document.getElementById('descimage').style.marginLeft = "0";
 			document.getElementById('songdesc').style.fontSize = "large";
+
+			document.getElementById('image1').style.width = '50%';
+
+			var images = document.getElementsByClassName("image");
+			var i;
+			for (i = 0; i < images.length; i++) {
+				images[i].style.width = "25%";
+			}
 
 			var d1 = document.getElementsByClassName("description2");
 			var i;

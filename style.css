@@ -236,6 +236,19 @@ body {
 	padding: 0 0 0 0;
 }
 
+#divider3 {
+	position: relative;
+	display: none;
+	width: 100%;
+	height: 8px;
+	background-color: rgb(255, 165, 0);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 0 0 4px 0;
+	padding: 0 0 0 0;
+}
+
 #aboutssg {
 	position: relative;
 	display: inline-block;
@@ -263,6 +276,19 @@ body {
 }
 
 #ssggallery {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 8px;
+	background-color: rgb(255, 165, 0);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 0 0 5px 0;
+	padding: 0 0 0 0;
+}
+
+#ssgschedule {
 	position: relative;
 	display: inline-block;
 	width: 100%;
@@ -322,6 +348,22 @@ body {
 	font-size: large;
 }
 
+#newstable3 {
+	width: 50%;
+	border: 0px;
+	float: left;
+	padding: 0 8% 0 8%;
+	font-size: large;
+}
+
+#newstable4 {
+	width: 50%;
+	border: 0px;
+	float: right;
+	padding: 0 8% 0 8%;
+	font-size: large;
+}
+
 #newstable1 th {
 	text-decoration: underline;
 	font-size: x-large;
@@ -330,6 +372,18 @@ body {
 #newstable2 th {
 	text-decoration: underline;
 	font-size: x-large;
+}
+
+#newstable3 th {
+	text-decoration: underline;
+	font-size: x-large;
+	text-align: left;
+}
+
+#newstable4 th {
+	text-decoration: underline;
+	font-size: x-large;
+	text-align: left;
 }
 
 #aboutus {
@@ -409,15 +463,44 @@ hr {
 	position: relative;
 }
 
-#images {
-	padding-left: 8%;
-}
-
-#image {
-	float: left;
+.image {
+	width: 25%;
 	margin: 10px 10px 10px 10px;
 }
 
+#image1 {
+	width: 50%;
+	margin: 10px 10px 10px 10px;
+}
 
+#newsection2 {
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 0 0 0 0;
+	position: relative;
+	overflow: hidden;
+}
+
+#schedule {
+	width: 60%;
+	background-color: white;
+	float: left;
+}
+
+#section3 {
+	width: 40%;
+	height: 100%;
+	background-color: #70C68D;
+	position: absolute;
+	right: 0;
+}
+
+.description3 {
+	width: 73%;
+	margin: 0 2% 25px 5%;
+	color: white;
+	font-size: large;
+	float: left;
+}
 
 
