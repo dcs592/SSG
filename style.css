@@ -387,6 +387,7 @@ body {
 }
 
 #aboutus {
+	position: absolute;
 	margin-top: 5px;
 }
 
@@ -411,6 +412,21 @@ body {
 	color: white;
 	font-size: large;
 	float: right;
+}
+
+#newsdesc {
+	width: 90%;
+	margin: 0 5% 25px 5%;
+	color: white;
+	font-size: large;
+}
+
+#newsimage {
+	width: 100%; 
+	max-width: 500px;
+	padding-right: 15px; 
+	padding-left: 15px;
+	margin-bottom: 20px
 }
 
 .descimage2 {
