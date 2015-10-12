@@ -70,6 +70,9 @@ $(document).ready(function() {
 			menu[i].style.display = "none";
 		}
 
+		document.getElementById('section2').style.width = '100%';
+		document.getElementById('section2').style.left = '0';
+
 	/*	var images = document.getElementsByClassName("image");
 		var i;
 		for (i = 0; i < images.length; i++) {

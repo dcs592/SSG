@@ -332,9 +332,8 @@ body {
 	margin-bottom: 50px;
 }
 
-.section2 {
+#section2 {
 	width: 25%;
-	background-color: #70C68D;
 	position: relative;
 	right: 0;
 	float: right;
