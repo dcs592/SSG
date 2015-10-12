@@ -33,12 +33,12 @@ $(document).ready(function() {
 
 		document.getElementById('section1').style.width = '100%';
 	//	document.getElementById('schedule').style.width = '100%';
-		document.getElementById('fb-page').style.position = 'relative';
+	//	document.getElementById('fb-page').style.position = 'relative';
 	//	document.getElementById('section3').style.width = '100%';
 	//	document.getElementById('section3').style.position = 'relative';
 		document.getElementById('divider2').style.display = 'inline-block';
 	//	document.getElementById('divider3').style.display = 'inline-block';
-		document.getElementById('fb-page').style.marginTop = '-30px';
+	//	document.getElementById('fb-page').style.marginTop = '-30px';
 	//	document.getElementById('section3').style.marginTop = '-30px';
 
 		document.getElementById('newstable1').style.width = '100%';
@@ -135,12 +135,12 @@ function Resize() {
 
 			document.getElementById('section1').style.width = '100%';
 		//	document.getElementById('schedule').style.width = '100%';
-			document.getElementById('fb-page').style.position = 'relative';
+		//	document.getElementById('fb-page').style.position = 'relative';
 		//	document.getElementById('section3').style.width = '100%';
 		//	document.getElementById('section3').style.position = 'relative';
 			document.getElementById('divider2').style.display = 'inline-block';
 		//	document.getElementById('divider3').style.display = 'inline-block';
-			document.getElementById('fb-page').style.marginTop = '-30px';
+		//	document.getElementById('fb-page').style.marginTop = '-30px';
 		//	document.getElementById('section3').style.marginTop = '-30px';
 
 			document.getElementById('newstable1').style.width = '100%';
@@ -229,12 +229,12 @@ function Resize() {
 
 			document.getElementById('section1').style.width = '75%';
 		//	document.getElementById('schedule').style.width = '60%';
-			document.getElementById('fb-page').style.position = 'absolute';
+		//	document.getElementById('fb-page').style.position = 'absolute';
 		//	document.getElementById('section3').style.width = '40%';
 		//	document.getElementById('section3').style.position = 'absolute';
 			document.getElementById('divider2').style.display = 'none';
 		//	document.getElementById('divider3').style.display = 'none';
-			document.getElementById('fb-page').style.marginTop = '0';
+		//	document.getElementById('fb-page').style.marginTop = '0';
 		//	document.getElementById('section3').style.marginTop = '0';
 
 			document.getElementById('newstable1').style.width = '50%';
