@@ -332,6 +332,14 @@ body {
 	right: 0;
 }
 
+.section2 {
+	width: 25%;
+	height: 100%;
+	background-color: #70C68D;
+	position: absolute;
+	right: 0;
+}
+
 #newstable1 {
 	width: 50%;
 	border: 0px;
@@ -507,11 +515,6 @@ hr {
 	background-color: #70C68D;
 	position: absolute;
 	right: 0;
-}
-
-.twitter-timeline .twitter-timeline-rendered {
-	width: 25%;
-	margin-top: 20px;
 }
 
 
