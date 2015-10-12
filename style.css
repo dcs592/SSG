@@ -332,7 +332,7 @@ body {
 	margin-bottom: 50px;
 }
 
-#section2 {
+.section2 {
 	width: 25%;
 	position: relative;
 	right: 0;
@@ -515,5 +515,4 @@ hr {
 	position: absolute;
 	right: 0;
 }
-
 
