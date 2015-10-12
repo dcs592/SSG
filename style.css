@@ -468,15 +468,13 @@ hr {
 #music {
 	width: 100%;
 	background-color: white;
-	margin-top: -15px;
 	padding-bottom: 25px;
 }
 
 #gallery {
 	width: 100%;
-	margin-top: -15px;
-	display: inline-block;
-	position: relative;
+	margin-top: 5px;
+
 }
 
 .image {
