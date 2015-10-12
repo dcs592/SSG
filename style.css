@@ -509,7 +509,7 @@ hr {
 	right: 0;
 }
 
-.twitter-timeline {
+.twitter-timeline .twitter-timeline-rendered {
 	width: 25%;
 	margin-top: 20px;
 }
