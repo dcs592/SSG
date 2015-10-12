@@ -44,6 +44,14 @@ $(document).ready(function() {
 		document.getElementById('section1').style.width = '100%';
 		document.getElementById('fb-page').style.display = 'none';
 
+
+		var fb = document.getElementsByClassName("fb-page");
+		var i;
+		for (i = 0; i < fb.length; i++) {
+			fb[i].style.width = "100%";
+			fb[i].style.left = "0";
+		}
+
 		var s2 = document.getElementsByClassName("section2");
 		var i;
 		for (i = 0; i < s2.length; i++) {
@@ -96,6 +104,13 @@ function Resize() {
 			document.getElementById('section1').style.width = '100%';
 			document.getElementById('fb-page').style.display = 'none';
 
+			var fb = document.getElementsByClassName("fb-page");
+			var i;
+			for (i = 0; i < fb.length; i++) {
+				fb[i].style.width = "100%";
+				fb[i].style.left = "0";
+			}
+
 			var s2 = document.getElementsByClassName("section2");
 			var i;
 			for (i = 0; i < s2.length; i++) {
@@ -140,7 +155,13 @@ function Resize() {
 			document.getElementById("menu").style.position = "fixed";
 
 			document.getElementById('section1').style.width = '75%';
-			document.getElementById('fb-page').style.display = 'inline-block';
+
+			var fb = document.getElementsByClassName("fb-page");
+			var i;
+			for (i = 0; i < fb.length; i++) {
+				fb[i].style.width = "25%";
+				fb[i].style.right = "0";
+			}
 
 			var s2 = document.getElementsByClassName("section2");
 			var i;
