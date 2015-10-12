@@ -33,7 +33,6 @@ $(document).ready(function() {
 
 		document.getElementById('section1').style.width = '100%';
 	//	document.getElementById('schedule').style.width = '100%';
-		document.getElementById('fb-page').style.width = '100%';
 		document.getElementById('fb-page').style.position = 'relative';
 	//	document.getElementById('section3').style.width = '100%';
 	//	document.getElementById('section3').style.position = 'relative';
@@ -136,7 +135,6 @@ function Resize() {
 
 			document.getElementById('section1').style.width = '100%';
 		//	document.getElementById('schedule').style.width = '100%';
-			document.getElementById('fb-page').style.width = '100%';
 			document.getElementById('fb-page').style.position = 'relative';
 		//	document.getElementById('section3').style.width = '100%';
 		//	document.getElementById('section3').style.position = 'relative';
@@ -231,7 +229,6 @@ function Resize() {
 
 			document.getElementById('section1').style.width = '75%';
 		//	document.getElementById('schedule').style.width = '60%';
-			document.getElementById('fb-page').style.width = '25%';
 			document.getElementById('fb-page').style.position = 'absolute';
 		//	document.getElementById('section3').style.width = '40%';
 		//	document.getElementById('section3').style.position = 'absolute';
