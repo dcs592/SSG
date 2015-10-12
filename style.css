@@ -16,7 +16,7 @@ body {
 	background-position: center;
 	background-color: white;
 	margin-left: 35%;
-	margin-top: 175px;
+	margin-top: 150px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: rgb(255, 165, 0);
@@ -40,7 +40,7 @@ body {
 	width: 35%;
 	height: 225px;
 	margin-left: 8%;
-	margin-top: 8%;
+	margin-top: 6%;
 	float: left;
 	background: url(IMG0234.JPG);
     background-size: cover;
@@ -58,7 +58,7 @@ body {
 	width: 35%;
 	height: 225px;
 	margin-right: 8%;
-	margin-top: 8%;
+	margin-top: 6%;
 	float: right;
 	background: url(square.jpg);
     background-size: cover;
@@ -127,7 +127,6 @@ body {
 
 
 #nav ul {
-	position: fixed;
 	top: 0;
 	z-index: 100;
 	border-top: 0;
@@ -140,7 +139,6 @@ body {
  	text-align: center;
  	padding: 0;
  	margin: 0;
- 	margin-bottom: 50px;
 }
 
 #nav li {
@@ -326,7 +324,7 @@ body {
 }
 
 
-#section2 {
+.fb-page {
 	width: 25%;
 	height: 100%;
 	background-color: #70C68D;
