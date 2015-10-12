@@ -42,7 +42,6 @@ $(document).ready(function() {
 		document.getElementById("menu").style.position = "absolute";
 
 		document.getElementById('section1').style.width = '100%';
-		document.getElementById('fb-page').style.display = 'none';
 
 
 		var fb = document.getElementsByClassName("fb-page");
@@ -102,7 +101,6 @@ function Resize() {
 			document.getElementById("menu").style.position = "absolute";
 
 			document.getElementById('section1').style.width = '100%';
-			document.getElementById('fb-page').style.display = 'none';
 
 			var fb = document.getElementsByClassName("fb-page");
 			var i;
