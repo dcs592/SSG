@@ -10,6 +10,94 @@ function expandMenu() {
 	}
 }
 
+function LizTimerSwitch1() {
+	var w = window.innerWidth;
+	if (w < 925) {
+		setTimeout(function() {LizTimerSwitch1();}, 10000);
+	}
+	else {
+		document.getElementById("liz_img").src = "liz2.jpg";
+		setTimeout(function() {LizTimerSwitch2();}, 10000);
+	}
+}
+
+function LizTimerSwitch2() {
+	var w = window.innerWidth;
+	if (w < 925) {
+		setTimeout(function() {LizTimerSwitch2();}, 10000);
+	}
+	else {
+		document.getElementById("liz_img").src = "liz.jpg";
+		setTimeout(function() {LizTimerSwitch1();}, 10000);
+	}
+}
+
+function DaneTimerSwitch1() {
+	var w = window.innerWidth;
+	if (w < 925) {
+		setTimeout(function() {DaneTimerSwitch1();}, 10000);
+	}
+	else {
+		document.getElementById("dane_img").src = "dane2.jpg";
+		setTimeout(function() {DaneTimerSwitch2();}, 10000);
+	}
+}
+
+function DaneTimerSwitch2() {
+	var w = window.innerWidth;
+	if (w < 925) {
+		setTimeout(function() {DaneTimerSwitch2();}, 10000);
+	}
+	else {
+		document.getElementById("dane_img").src = "dane.jpg";
+		setTimeout(function() {DaneTimerSwitch1();}, 10000);
+	}
+}
+
+function MattTimerSwitch1() {
+	var w = window.innerWidth;
+	if (w < 925) {
+		setTimeout(function() {MattTimerSwitch1();}, 10000);
+	}
+	else {
+		document.getElementById("matt_img").src = "matt2.jpg";
+		setTimeout(function() {MattTimerSwitch2();}, 10000);
+	}
+}
+
+function MattTimerSwitch2() {
+	var w = window.innerWidth;
+	if (w < 925) {
+		setTimeout(function() {MattTimerSwitch2();}, 10000);
+	}
+	else {
+		document.getElementById("matt_img").src = "matt.jpg";
+		setTimeout(function() {MattTimerSwitch1();}, 10000);
+	}
+}
+
+function TonyTimerSwitch1() {
+	var w = window.innerWidth;
+	if (w < 925) {
+		setTimeout(function() {TonyTimerSwitch1();}, 10000);
+	}
+	else {
+		document.getElementById("tony_img").src = "tony2.jpg";
+		setTimeout(function() {TonyTimerSwitch2();}, 10000);
+	}
+}
+
+function TonyTimerSwitch2() {
+	var w = window.innerWidth;
+	if (w < 925) {
+		setTimeout(function() {TonyTimerSwitch2();}, 10000);
+	}
+	else {
+		document.getElementById("tony_img").src = "tony.jpg";
+		setTimeout(function() {TonyTimerSwitch1();}, 10000);
+	}
+}
+
 $(document).ready(function() {
 
 	var w = window.innerWidth;
@@ -73,6 +161,10 @@ $(document).ready(function() {
 	}
 	else {
 		widthcheck = 0;
+		setTimeout(function() {LizTimerSwitch1();}, 10000);
+		setTimeout(function() {DaneTimerSwitch1();}, 8000);
+		setTimeout(function() {MattTimerSwitch1();}, 12000);
+		setTimeout(function() {TonyTimerSwitch1();}, 6000);
 	}
 })
 
