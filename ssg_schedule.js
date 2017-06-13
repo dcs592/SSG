@@ -18,12 +18,12 @@ $(document).ready(function() {
 	if (w < 800) {
 		widthcheck = 1;
 
-		//document.getElementById('expand').style.display = 'inline-block';
-		//var menu = document.getElementsByClassName("full");
-		//var i;
-		//for (i = 0; i < menu.length; i++) {
-		//	menu[i].style.display = "none";
-		//}
+		document.getElementById('expand').style.display = 'inline-block';
+		var menu = document.getElementsByClassName("full");
+		var i;
+		for (i = 0; i < menu.length; i++) {
+			menu[i].style.display = "none";
+		}
 
 		document.getElementById("pageBody").style.width = "600 px";
 		//document.getElementById("footercontact").style.display = 'none';
@@ -40,12 +40,12 @@ function Resize() {
     if (w<800) {
     	if (widthcheck==0) {
 
-			//document.getElementById('expand').style.display = 'inline-block';
-			//var menu = document.getElementsByClassName("full");
-			//var i;
-			//for (i = 0; i < menu.length; i++) {
-			//	menu[i].style.display = "none";
-			//}
+			document.getElementById('expand').style.display = 'inline-block';
+			var menu = document.getElementsByClassName("full");
+			var i;
+			for (i = 0; i < menu.length; i++) {
+				menu[i].style.display = "none";
+			}
 
 			document.getElementById("pageBody").style.width = "600 px";
 
@@ -55,13 +55,13 @@ function Resize() {
     else {
     	if (widthcheck==1) {
 
-			//document.getElementById('expand').style.display = 'none';
-			//var menu = document.getElementsByClassName("full");
-			//var i;
-			//for (i = 0; i < menu.length; i++) {
-			//	menu[i].style.display = "inline-block";
-			//}
-
+			document.getElementById('expand').style.display = 'none';
+			var menu = document.getElementsByClassName("full");
+			var i;
+			for (i = 0; i < menu.length; i++) {
+				menu[i].style.display = "inline-block";
+			}
+			
 			document.getElementById("pageBody").style.width = "1100 px";
 			//document.getElementById("footercontact").style.display = 'block';
 			//document.getElementById("footerlist1").style.display = 'block';
