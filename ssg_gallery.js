@@ -30,6 +30,11 @@ $(document).ready(function() {
 		for (i = 0; i < images.length; i++) {
 			images[i].style.width = "90%";
 		}
+
+		document.getElementById("footercontact").style.display = 'none';
+		document.getElementById("footerlist1").style.display = 'none';
+		document.getElementById("footerlist2").style.display = 'none';
+
 	}
 	else {
 		widthcheck = 0;
@@ -53,6 +58,11 @@ function Resize() {
 			for (i = 0; i < images.length; i++) {
 				images[i].style.width = "90%";
 			}
+
+			document.getElementById("footercontact").style.display = 'none';
+			document.getElementById("footerlist1").style.display = 'none';
+			document.getElementById("footerlist2").style.display = 'none';
+
 		}
 		widthcheck = 1;
     }
@@ -71,6 +81,10 @@ function Resize() {
 			for (i = 0; i < images.length; i++) {
 				images[i].style.width = "25%";
 			}
+
+			document.getElementById("footercontact").style.display = 'block';
+			document.getElementById("footerlist1").style.display = 'block';
+			document.getElementById("footerlist2").style.display = 'block';
 		}
 		widthcheck = 0;
     }

@@ -57,7 +57,6 @@ $(document).ready(function() {
 			d3[i].style.marginTop = "0";
 		}
 
-
 		var d4 = document.getElementsByClassName("descimage3");
 		var i;
 		for (i = 0; i < d4.length; i++) {
@@ -66,6 +65,10 @@ $(document).ready(function() {
 			d4[i].style.marginLeft = "5%";
 			d4[i].style.marginTop = "0";
 		}
+
+		document.getElementById("footercontact").style.display = 'none';
+		document.getElementById("footerlist1").style.display = 'none';
+		document.getElementById("footerlist2").style.display = 'none';
 	}
 	else {
 		widthcheck = 0;
@@ -123,6 +126,11 @@ function Resize() {
 				d4[i].style.width = "90%";
 				d4[i].style.marginTop = "0";
 			}
+
+			document.getElementById("footercontact").style.display = 'none';
+			document.getElementById("footerlist1").style.display = 'none';
+			document.getElementById("footerlist2").style.display = 'none';
+
 		}
 		widthcheck = 1;
     }
@@ -168,7 +176,6 @@ function Resize() {
 				d3[i].style.marginLeft = "5%";
 			}
 
-
 			var d4 = document.getElementsByClassName("descimage3");
 			var i;
 			for (i = 0; i < d4.length; i++) {
@@ -177,6 +184,11 @@ function Resize() {
 				d4[i].style.marginTop = "-85px";
 				d4[i].style.marginLeft = "0";
 			}
+
+			document.getElementById("footercontact").style.display = 'block';
+			document.getElementById("footerlist1").style.display = 'block';
+			document.getElementById("footerlist2").style.display = 'block';
+
 		}
 		widthcheck = 0;
     }

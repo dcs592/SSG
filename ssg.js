@@ -41,25 +41,52 @@ $(document).ready(function() {
 
 		document.getElementById("menu").style.position = "absolute";
 
-		document.getElementById('section1').style.width = '100%';
+		document.getElementById('section1').style.width = '90%';
+
+		document.getElementById("footercontact").style.display = 'none';
+		document.getElementById("footerlist1").style.display = 'none';
+		document.getElementById("footerlist2").style.display = 'none';
 
 
 		var fb = document.getElementsByClassName("fb-page");
 		var i;
 		for (i = 0; i < fb.length; i++) {
-			fb[i].style.width = "100%";
-			fb[i].style.left = "0";
+			fb[i].style.width = "90%";
+			fb[i].style.marginLeft = "auto";
+			fb[i].style.marginRight = "auto";
 		}
 
 		var s2 = document.getElementsByClassName("section2");
 		var i;
 		for (i = 0; i < s2.length; i++) {
-			s2[i].style.width = "100%";
-			s2[i].style.left = "0";
+			s2[i].style.width = "90%";
+			s2[i].style.marginLeft= "0%";
 		}
 
-		document.getElementById('newstable1').style.width = '100%';
-		document.getElementById('newstable2').style.width = '100%';
+		document.getElementById("gad").style.fontSize = "large";
+		document.getElementById("gad").style.paddingLeft = "10px";
+		document.getElementById("gimage").style.display = "none";
+
+		document.getElementById("media").style.display = "block";
+		document.getElementById("media").style.marginTop = "100px";
+
+		var icons = document.getElementsByTagName("td");
+		icons[0].style.padding ="10px 10px 10px 10px";
+		icons[0].style.display = "inline-block";
+		icons[1].style.padding ="10px 10px 10px 10px";
+		icons[1].style.display = "inline-block";
+		icons[2].style.padding ="10px 10px 10px 10px";
+		icons[2].style.display = "inline-block";
+		icons[3].style.padding ="5px 0px 5px 10px";
+		icons[3].style.display = "inline-block";
+		icons[4].style.padding ="5px 0px 5px 15px";
+		icons[4].style.display = "inline-block";
+		icons[5].style.padding ="5px 0px 5px 15px";
+		icons[5].style.display = "inline-block";
+
+		document.getElementById("newcd").style.width = "80%";
+		document.getElementById("newcd").style.marginTop = "100px";
+
 
 		document.getElementById('expand').style.display = 'inline-block';
 		var menu = document.getElementsByClassName("full");
@@ -100,24 +127,49 @@ function Resize() {
 
 			document.getElementById("menu").style.position = "absolute";
 
-			document.getElementById('section1').style.width = '100%';
+			document.getElementById('section1').style.width = '90%';
+
+			document.getElementById("footercontact").style.display = 'none';
+			document.getElementById("footerlist1").style.display = 'none';
+			document.getElementById("footerlist2").style.display = 'none';
 
 			var fb = document.getElementsByClassName("fb-page");
 			var i;
 			for (i = 0; i < fb.length; i++) {
-				fb[i].style.width = "100%";
-				fb[i].style.left = "0";
+				fb[i].style.width = "90%";
+				fb[i].style.marginLeft = "0%";
 			}
+
+			document.getElementById("gad").style.fontSize = "large";
+			document.getElementById("gad").style.paddingLeft = "10px";
+			document.getElementById("gimage").style.display = "none";
 
 			var s2 = document.getElementsByClassName("section2");
 			var i;
 			for (i = 0; i < s2.length; i++) {
-				s2[i].style.width = "100%";
-				s2[i].style.left = "0";
+				s2[i].style.width = "90%";
+				s2[i].style.marginLeft = "0%";
 			}
 
-			document.getElementById('newstable1').style.width = '100%';
-			document.getElementById('newstable2').style.width = '100%';
+			document.getElementById("media").style.display = "block";
+			document.getElementById("media").style.marginTop = "50px";
+
+			var icons = document.getElementsByTagName("td");
+			icons[0].style.padding ="10px 10px 10px 10px";
+			icons[0].style.display = "inline-block";
+			icons[1].style.padding ="10px 10px 10px 10px";
+			icons[1].style.display = "inline-block";
+			icons[2].style.padding ="10px 10px 10px 10px";
+			icons[2].style.display = "inline-block";
+			icons[3].style.padding ="5px 0px 5px 10px";
+			icons[3].style.display = "inline-block";
+			icons[4].style.padding ="5px 0px 5px 15px";
+			icons[4].style.display = "inline-block";
+			icons[5].style.padding ="5px 0px 5px 15px";
+			icons[5].style.display = "inline-block";
+
+			document.getElementById("newcd").style.width = "80%";
+			document.getElementById("newcd").style.marginTop = "100px";
 
 			document.getElementById('expand').style.display = 'inline-block';
 			var menu = document.getElementsByClassName("full");
@@ -152,24 +204,51 @@ function Resize() {
 
 			document.getElementById("menu").style.position = "fixed";
 
-			document.getElementById('section1').style.width = '75%';
+			document.getElementById('section1').style.width = '28%';
+
+			document.getElementById("footercontact").style.display = 'block';
+			document.getElementById("footerlist1").style.display = 'block';
+			document.getElementById("footerlist2").style.display = 'block';
 
 			var fb = document.getElementsByClassName("fb-page");
 			var i;
 			for (i = 0; i < fb.length; i++) {
-				fb[i].style.width = "25%";
-				fb[i].style.right = "0";
+				fb[i].style.width = "28%";
+				fb[i].style.marginLeft = "7%";
 			}
+
+			document.getElementById("gad").style.fontSize = "x-large";
+			document.getElementById("gad").style.paddingLeft = "350px";
+			document.getElementById("gimage").style.display = "block";
+
+			document.getElementById("newcd").style.width = "60%";
+			document.getElementById("newcd").style.marginTop = "100px";
 
 			var s2 = document.getElementsByClassName("section2");
 			var i;
 			for (i = 0; i < s2.length; i++) {
-				s2[i].style.width = "25%";
-				s2[i].style.right = "0";
+				s2[i].style.width = "28%";
+				s2[i].style.marginLeft = "7%";
 			}
 
-			document.getElementById('newstable1').style.width = '50%';
-			document.getElementById('newstable2').style.width = '50%';
+			document.getElementById("media").style.display = "table";
+			document.getElementById("media").style.marginTop = "0";
+
+			var icons = document.getElementsByTagName("td");
+			icons[0].style.padding ="25px 25px 25px 25px";
+			icons[0].style.display = "table-cell";
+			icons[1].style.padding ="25px 25px 25px 25px";
+			icons[1].style.display = "table-cell";
+			icons[2].style.padding ="25px 25px 25px 25px";
+			icons[2].style.display = "table-cell";
+			icons[3].style.padding ="25px 25px 25px 25px";
+			icons[3].style.display = "table-cell";
+			icons[4].style.padding ="25px 25px 25px 15px";
+			icons[4].style.display = "table-cell";
+			icons[5].style.padding ="25px 25px 25px 15px";
+			icons[5].style.display = "table-cell";
+
+			document.getElementById("footercontact").display = 'none';
 
 			document.getElementById('expand').style.display = 'none';
 			var menu = document.getElementsByClassName("full");
@@ -181,6 +260,30 @@ function Resize() {
 		widthcheck = 0;
     }
 }
+
+function initQuoteCarousel() {
+
+    var $quotesWrapper = $(".cust-quotes");
+    var $quotes = $quotesWrapper.find("blockquote");
+
+    if (!$quotes.length) {
+        return;
+    }
+
+    var selectNextQuote = function () {
+        // keep move first quote in dom to the end to make continous
+        var $quote = $quotesWrapper.find("blockquote:first").detach().appendTo($quotesWrapper);
+
+        setTimeout(selectNextQuote, $quote.data("timeout"));
+    };
+
+    setTimeout(selectNextQuote, $quotes.filter(":first").data("timeout"));
+
+}
+
+$(function () {
+    initQuoteCarousel();
+});
 
 
 window.addEventListener("resize", Resize);
