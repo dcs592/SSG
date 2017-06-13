@@ -1,14 +1,14 @@
 
 widthcheck = 0;
 
-//function expandMenu() {
-//	document.getElementById("expand").style.display = 'none';
-//	var menu = document.getElementsByClassName("full");
-//	var i;
-//	for (i = 0; i < menu.length; i++) {
-//		menu[i].style.display = "block";
-//	}
-//}
+function expandMenu() {
+	document.getElementById("expand").style.display = 'none';
+	var menu = document.getElementsByClassName("full");
+	var i;
+	for (i = 0; i < menu.length; i++) {
+		menu[i].style.display = "block";
+	}
+}
 
 
 $(document).ready(function() {
