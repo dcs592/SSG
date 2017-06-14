@@ -128,49 +128,7 @@ function Resize() {
     }
     else {
     	if (widthcheck==1) {
-			document.getElementById("circle").style.marginLeft = '35%';
-			document.getElementById("circle").style.position = 'absolute';
-			document.getElementById('circle').style.marginTop = '150px';
-
-			document.getElementById("menu").style.position = "fixed";
-			document.getElementById("menu").style.width = "100%";
-
-			document.getElementById("pageBody").style.width = '1100px';
-
-			document.getElementById("main").style.marginLeft = '100px';
-			document.getElementById("main").style.width = '750px';
-			document.getElementById("fb").style.height = "519px";
-			document.getElementById("fb").style.marginTop = "-520px";
-
-			document.getElementById("testimonials").style.display = "block";
-
-			document.getElementById("media").style.marginTop = "0px";
-
-			document.getElementById("mc_embed_signup").style.marginLeft = "0px";
-
-			document.getElementById("ad2").style.marginTop = "116px";
-/*
-			var icons = document.getElementsByTagName("td");
-			icons[0].style.padding ="25px 25px 25px 25px";
-			icons[0].style.display = "table-cell";
-			icons[1].style.padding ="25px 25px 25px 25px";
-			icons[1].style.display = "table-cell";
-			icons[2].style.padding ="25px 25px 25px 25px";
-			icons[2].style.display = "table-cell";
-			icons[3].style.padding ="25px 25px 25px 25px";
-			icons[3].style.display = "table-cell";
-			icons[4].style.padding ="25px 25px 25px 15px";
-			icons[4].style.display = "table-cell";
-			icons[5].style.padding ="25px 25px 25px 15px";
-			icons[5].style.display = "table-cell";
-*/
-
-			document.getElementById('expand').style.display = 'none';
-			var menu = document.getElementsByClassName("full");
-			var i;
-			for (i = 0; i < menu.length; i++) {
-				menu[i].style.display = "inline-block";
-			}
+			location.reload();
 		}
 		widthcheck = 0;
     }
