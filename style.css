@@ -12,6 +12,17 @@ body {
 	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
 }
 
+#pageBody {
+	overflow: hidden; 
+	width: 1100px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	border-left: 1px solid; 
+	border-right: 1px solid; 
+	background-color: white; 
+	box-shadow: 3px 0px 7px black, -3px 0px 7px black;
+}
+
 #circle {
 	border-radius: 50%;
 	width: 250px;
