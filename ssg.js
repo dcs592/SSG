@@ -26,16 +26,6 @@ $(document).ready(function() {
 
 		document.getElementById("menu").style.position = "absolute";
 
-		document.getElementById('section1').style.width = '90%';
-
-
-
-		document.getElementById("gad").style.fontSize = "large";
-		document.getElementById("gad").style.paddingLeft = "10px";
-		document.getElementById("gimage").style.display = "none";
-
-		document.getElementById("media").style.display = "block";
-		document.getElementById("media").style.marginTop = "100px";
 /*
 		var icons = document.getElementsByTagName("td");
 		icons[0].style.padding ="10px 10px 10px 10px";
