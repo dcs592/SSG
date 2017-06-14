@@ -12,6 +12,15 @@ body {
 	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
 }
 
+@media screen and (max-width: 900px) {
+  body { zoom: 0.75;
+  		-moz-transform: scale(0.75); }
+}
+@media screen and (min-width: 901px) {
+  body { zoom: 1.0;	
+  		 -moz-transform: scale(1.0); }
+}
+
 #pageBody {
 	overflow: hidden; 
 	width: 1100px; 

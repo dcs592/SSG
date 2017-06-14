@@ -19,6 +19,11 @@ $(document).ready(function() {
 
 	if (w < 900) {
 		widthcheck = 1;
+
+		document.getElementById("testimonials").style.display = "none";
+
+		/*
+
 		document.getElementById("circle").style.marginLeft = 'auto';
 		document.getElementById("circle").style.marginRight = 'auto';
 		document.getElementById("circle").style.position = 'relative';
@@ -64,7 +69,7 @@ $(document).ready(function() {
 		icons[4].style.display = "inline-block";
 		icons[5].style.padding ="5px 0px 5px 15px";
 		icons[5].style.display = "inline-block";
-*/
+
 
 		document.getElementById('expand').style.display = 'inline-block';
 		var menu = document.getElementsByClassName("full");
@@ -72,6 +77,8 @@ $(document).ready(function() {
 		for (i = 0; i < menu.length; i++) {
 			menu[i].style.display = "none";
 		}
+
+		*/
 
 	}
 	else {
