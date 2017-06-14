@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 	var w = window.innerWidth;
 
-	if (w < 925) {
+	if (w < 900) {
 		widthcheck = 1;
 
 		document.getElementById('expand').style.display = 'inline-block';
@@ -24,15 +24,9 @@ $(document).ready(function() {
 			menu[i].style.display = "none";
 		}
 
-		document.getElementById("footercontact").style.display = 'none';
-		document.getElementById("footerlist1").style.display = 'none';
-		document.getElementById("footerlist2").style.display = 'none';
+		document.getElementById("pageBody").style.width = "600 px";
 
-		document.getElementById("albumdesc").style.width = "90%";
-		document.getElementById("albumdesc").style.marginTop = "0px";
-		document.getElementById("albumcolumn").style.width = "90%";
-		document.getElementById("cd_ad_persp").style.width = "50%";
-
+/*
 		var icons = document.getElementsByTagName("td");
 		icons[0].style.padding ="10px 10px 10px 10px";
 		icons[0].style.display = "inline-block";
@@ -42,7 +36,7 @@ $(document).ready(function() {
 		icons[2].style.display = "inline-block";
 		icons[3].style.padding ="5px 0px 5px 10px";
 		icons[3].style.display = "inline-block";
-
+*/
 	}
 	else {
 		widthcheck = 0;
@@ -51,7 +45,7 @@ $(document).ready(function() {
 
 function Resize() {
     var w = window.innerWidth;
-    if (w<925) {
+    if (w<900) {
     	if (widthcheck==0) {
 
 			document.getElementById('expand').style.display = 'inline-block';
@@ -61,15 +55,8 @@ function Resize() {
 				menu[i].style.display = "none";
 			}
 
-			document.getElementById("footercontact").style.display = 'none';
-			document.getElementById("footerlist1").style.display = 'none';
-			document.getElementById("footerlist2").style.display = 'none';
-
-			document.getElementById("albumdesc").style.width = "90%";
-			document.getElementById("albumdesc").style.marginTop = "0px";
-			document.getElementById("albumcolumn").style.width = "90%";
-			document.getElementById("cd_ad_persp").style.width = "50%";
-
+			document.getElementById("pageBody").style.width = "600 px";
+/*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="10px 10px 10px 10px";
 			icons[0].style.display = "inline-block";
@@ -79,6 +66,7 @@ function Resize() {
 			icons[2].style.display = "inline-block";
 			icons[3].style.padding ="5px 0px 5px 10px";
 			icons[3].style.display = "inline-block";
+			*/
 		}
 		widthcheck = 1;
     }
@@ -91,16 +79,8 @@ function Resize() {
 			for (i = 0; i < menu.length; i++) {
 				menu[i].style.display = "inline-block";
 			}
-
-			document.getElementById("footercontact").style.display = 'block';
-			document.getElementById("footerlist1").style.display = 'block';
-			document.getElementById("footerlist2").style.display = 'block';
-
-			document.getElementById("albumdesc").style.width = "55%";
-			document.getElementById("albumdesc").style.marginTop = "55px";
-			document.getElementById("albumcolumn").style.width = "80%";
-			document.getElementById("cd_ad_persp").style.width = "30%";
-
+			document.getElementById("pageBody").style.width = "1100 px";
+/*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="25px 25px 25px 25px";
 			icons[0].style.display = "table-cell";
@@ -110,6 +90,7 @@ function Resize() {
 			icons[2].style.display = "table-cell";
 			icons[3].style.padding ="25px 25px 25px 25px";
 			icons[3].style.display = "table-cell";
+			*/
 		}
 		widthcheck = 0;
     }

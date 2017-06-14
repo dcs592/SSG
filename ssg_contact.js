@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 	var w = window.innerWidth;
 
-	if (w < 925) {
+	if (w < 900) {
 		widthcheck = 1;
 
 		document.getElementById('expand').style.display = 'inline-block';
@@ -25,20 +25,14 @@ $(document).ready(function() {
 			menu[i].style.display = "none";
 		}
 
-		var images = document.getElementsByClassName("image");
-		var i;
-		for (i = 0; i < images.length; i++) {
-			images[i].style.width = "90%";
-		}
+		document.getElementById("pageBody").style.width = "600 px";
 
-		document.getElementById("footercontact").style.display = 'none';
-		document.getElementById("footerlist1").style.display = 'none';
-		document.getElementById("footerlist2").style.display = 'none';
-
+/*
 		var icons = document.getElementsByTagName("td");
 		icons[0].style.padding ="5px 5px 5px 0px";
 		icons[1].style.padding ="5px 5px 5px 5px";
 		icons[2].style.padding ="5px 0px 5px 5px";
+		*/
 	}
 	else {
 		widthcheck = 0;
@@ -47,7 +41,7 @@ $(document).ready(function() {
 
 function Resize() {
     var w = window.innerWidth;
-    if (w<925) {
+    if (w<900) {
     	if (widthcheck==0) {
 
 			document.getElementById('expand').style.display = 'inline-block';
@@ -57,20 +51,14 @@ function Resize() {
 				menu[i].style.display = "none";
 			}
 
-			var images = document.getElementsByClassName("image");
-			var i;
-			for (i = 0; i < images.length; i++) {
-				images[i].style.width = "90%";
-			}
+			document.getElementById("pageBody").style.width = "600 px";
 
-			document.getElementById("footercontact").style.display = 'none';
-			document.getElementById("footerlist1").style.display = 'none';
-			document.getElementById("footerlist2").style.display = 'none';
-
+/*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="5px 5px 5px 0px";
 			icons[1].style.padding ="5px 5px 5px 5px";
 			icons[2].style.padding ="5px 0px 5px 5px";
+			*/
 		}
 		widthcheck = 1;
     }
@@ -84,20 +72,13 @@ function Resize() {
 				menu[i].style.display = "inline-block";
 			}
 
-			var images = document.getElementsByClassName("image");
-			var i;
-			for (i = 0; i < images.length; i++) {
-				images[i].style.width = "25%";
-			}
-
-			document.getElementById("footercontact").style.display = 'block';
-			document.getElementById("footerlist1").style.display = 'block';
-			document.getElementById("footerlist2").style.display = 'block';
-
+			document.getElementById("pageBody").style.width = "1100 px";
+/*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="25px 25px 25px 25px";
 			icons[1].style.padding ="25px 25px 25px 25px";
 			icons[2].style.padding ="25px 25px 25px 25px";
+			*/
 		}
 		widthcheck = 0;
     }

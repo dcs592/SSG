@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 	var w = window.innerWidth;
 
-	if (w < 925) {
+	if (w < 900) {
 		widthcheck = 1;
 		document.getElementById("circle").style.marginLeft = 'auto';
 		document.getElementById("circle").style.marginRight = 'auto';
@@ -67,7 +67,7 @@ $(document).ready(function() {
 
 function Resize() {
     var w = window.innerWidth;
-    if (w<925) {
+    if (w<900) {
     	if (widthcheck==0) {
 			document.getElementById("circle").style.marginLeft = 'auto';
 			document.getElementById("circle").style.marginRight = 'auto';

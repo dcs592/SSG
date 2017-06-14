@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 	var w = window.innerWidth;
 
-	if (w < 800) {
+	if (w < 900) {
 		widthcheck = 1;
 
 		document.getElementById('expand').style.display = 'inline-block';
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 function Resize() {
     var w = window.innerWidth;
-    if (w<800) {
+    if (w<900) {
     	if (widthcheck==0) {
 
 			document.getElementById('expand').style.display = 'inline-block';
