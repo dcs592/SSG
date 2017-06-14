@@ -509,9 +509,9 @@ p a:hover{
 }
 
 #descimage {
-	width: 43%;
-	margin: 30px 5% 25px 0;
-	float: right;
+	width: 40%;
+	padding: 10px 0px 10px 2%;
+	border-radius: 15px;
 	position: relative;
 }
 
@@ -540,12 +540,6 @@ p a:hover{
     text-justify: inter-word;
 }
 
-.descimage2 {
-	width: 40%;
-	padding: 10px 0px 10px 2%;
-	border-radius: 15px;
-	position: relative;
-}
 
 #newsdesc {
 	width: 90%;
