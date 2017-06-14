@@ -21,7 +21,7 @@ $(document).ready(function() {
 		document.getElementById("circle").style.marginLeft = 'auto';
 		document.getElementById("circle").style.marginRight = 'auto';
 		document.getElementById("circle").style.position = 'relative';
-		document.getElementById('circle').style.marginTop = '60px';
+		document.getElementById('circle').style.marginTop = '45px';
 
 
 		document.getElementById("menu").style.position = "absolute";
@@ -68,11 +68,17 @@ function Resize() {
 			document.getElementById("circle").style.marginLeft = 'auto';
 			document.getElementById("circle").style.marginRight = 'auto';
 			document.getElementById("circle").style.position = 'relative';
-			document.getElementById('circle').style.marginTop = '0px';
+			document.getElementById('circle').style.marginTop = '45px';
 
 			document.getElementById("menu").style.position = "absolute";
 
 			document.getElementById("pageBody").style.width = '800px';
+
+
+
+			document.getElementById("main").style.marginLeft = '0px';
+			document.getElementById("main").style.width = '500px';
+			document.getElementById("fb").style.height = "346px";
 
 /*
 			var icons = document.getElementsByTagName("td");
@@ -108,6 +114,10 @@ function Resize() {
 			document.getElementById("menu").style.position = "fixed";
 
 			document.getElementById("pageBody").style.width = '1100px';
+
+			document.getElementById("main").style.marginLeft = '100px';
+			document.getElementById("main").style.width = '750px';
+			document.getElementById("fb").style.height = "519px";
 /*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="25px 25px 25px 25px";
