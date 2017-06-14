@@ -21,12 +21,16 @@ $(document).ready(function() {
 		document.getElementById("circle").style.marginLeft = 'auto';
 		document.getElementById("circle").style.marginRight = 'auto';
 		document.getElementById("circle").style.position = 'relative';
-		document.getElementById('circle').style.marginTop = '0px';
+		document.getElementById('circle').style.marginTop = '60px';
 
 
 		document.getElementById("menu").style.position = "absolute";
 
 		document.getElementById("pageBody").style.width = '800px';
+
+		document.getElementById("main").style.marginLeft = '0px';
+		document.getElementById("main").style.width = '500px';
+		document.getElementById("fb").style.height = "346px";
 
 /*
 		var icons = document.getElementsByTagName("td");

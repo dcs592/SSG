@@ -36,8 +36,21 @@ body {
 	margin-left: 0px;
 	z-index: 1;
 	position: absolute;
+}
 
+#main {
+	width: 750px; 
+	margin-left: 100px;
+	overflow: hidden;
+}
 
+#fb {
+	float: right; 
+	position: relative; 
+	height: 519px; 
+	overflow: hidden; 
+	margin-top: -520px; 
+	border-bottom: thin solid black;
 }
 
 #element {
