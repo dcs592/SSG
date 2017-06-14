@@ -20,7 +20,8 @@ body {
 	border-left: 1px solid; 
 	border-right: 1px solid; 
 	background-color: white; 
-	box-shadow: 3px 0px 7px black, -3px 0px 7px black;
+	box-shadow: 3px 0px 7px black;
+	box-shadow: -3px 0px 7px black;
 }
 
 #circle {
