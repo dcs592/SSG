@@ -25,7 +25,7 @@ $(document).ready(function() {
 			menu[i].style.display = "none";
 		}
 
-		document.getElementById("pageBody").style.width = "600 px";
+		document.getElementById("pageBody").style.width = "800 px";
 
 /*
 		var icons = document.getElementsByTagName("td");
@@ -51,7 +51,7 @@ function Resize() {
 				menu[i].style.display = "none";
 			}
 
-			document.getElementById("pageBody").style.width = "600 px";
+			document.getElementById("pageBody").style.width = "800 px";
 
 /*
 			var icons = document.getElementsByTagName("td");

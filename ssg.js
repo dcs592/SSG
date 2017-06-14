@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 		document.getElementById("menu").style.position = "absolute";
 
-		document.getElementById("pageBody").style.width = '600px';
+		document.getElementById("pageBody").style.width = '800px';
 
 /*
 		var icons = document.getElementsByTagName("td");
@@ -68,7 +68,7 @@ function Resize() {
 
 			document.getElementById("menu").style.position = "absolute";
 
-			document.getElementById("pageBody").style.width = '600px';
+			document.getElementById("pageBody").style.width = '800px';
 
 /*
 			var icons = document.getElementsByTagName("td");

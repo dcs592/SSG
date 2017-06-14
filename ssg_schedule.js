@@ -25,7 +25,7 @@ $(document).ready(function() {
 			menu[i].style.display = "none";
 		}
 
-		document.getElementById("pageBody").style.width = "600 px";
+		document.getElementById("pageBody").style.width = "800 px";
 		//document.getElementById("footercontact").style.display = 'none';
 		//document.getElementById("footerlist1").style.display = 'none';
 		//document.getElementById("footerlist2").style.display = 'none';	
@@ -47,7 +47,7 @@ function Resize() {
 				menu[i].style.display = "none";
 			}
 
-			document.getElementById("pageBody").style.width = "600 px";
+			document.getElementById("pageBody").style.width = "800 px";
 
 		}
 		widthcheck = 1;

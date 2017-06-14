@@ -82,7 +82,7 @@ $(document).ready(function() {
 			d6[i].style.marginLeft = "5%";
 		}	
 
-		document.getElementById("pageBody").style.width = "600 px";
+		document.getElementById("pageBody").style.width = "800 px";
 
 	}
 	else {
@@ -159,7 +159,7 @@ function Resize() {
 				d6[i].style.marginLeft = "5%";
 			}	
 
-			document.getElementById("pageBody").style.width = "600 px";
+			document.getElementById("pageBody").style.width = "800 px";
 		}
 		widthcheck = 1;
     }
