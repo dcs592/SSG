@@ -9,6 +9,7 @@ function expandMenu() {
 		for (i = 0; i < menu.length; i++) {
 			menu[i].style.display = "block";
 	}
+	document.getElementById('circle').style.marginTop = '125px';
 }
 
 
@@ -25,12 +26,22 @@ $(document).ready(function() {
 
 
 		document.getElementById("menu").style.position = "absolute";
+		document.getElementById("menu").style.width = "800px";
 
 		document.getElementById("pageBody").style.width = '800px';
 
 		document.getElementById("main").style.marginLeft = '0px';
 		document.getElementById("main").style.width = '500px';
 		document.getElementById("fb").style.height = "346px";
+		document.getElementById("fb").style.marginTop = "0px";
+
+		document.getElementById("testimonials").style.display = "none";
+
+		document.getElementById("media").style.marginTop = "-525px";
+
+		document.getElementById("mc_embed_signup").style.marginLeft = "500px";
+
+		document.getElementById("ad2").style.marginTop = "640px";
 
 /*
 		var icons = document.getElementsByTagName("td");
@@ -71,6 +82,7 @@ function Resize() {
 			document.getElementById('circle').style.marginTop = '45px';
 
 			document.getElementById("menu").style.position = "absolute";
+			document.getElementById("menu").style.width = "800px";
 
 			document.getElementById("pageBody").style.width = '800px';
 
@@ -79,6 +91,15 @@ function Resize() {
 			document.getElementById("main").style.marginLeft = '0px';
 			document.getElementById("main").style.width = '500px';
 			document.getElementById("fb").style.height = "346px";
+			document.getElementById("fb").style.marginTop = "0px";
+
+			document.getElementById("testimonials").style.display = "none";
+
+			document.getElementById("media").style.marginTop = "-525px";
+
+			document.getElementById("mc_embed_signup").style.marginLeft = "500px";
+
+			document.getElementById("ad2").style.marginTop = "640px";
 
 /*
 			var icons = document.getElementsByTagName("td");
@@ -112,12 +133,22 @@ function Resize() {
 			document.getElementById('circle').style.marginTop = '150px';
 
 			document.getElementById("menu").style.position = "fixed";
+			document.getElementById("menu").style.width = "100%";
 
 			document.getElementById("pageBody").style.width = '1100px';
 
 			document.getElementById("main").style.marginLeft = '100px';
 			document.getElementById("main").style.width = '750px';
 			document.getElementById("fb").style.height = "519px";
+			document.getElementById("fb").style.marginTop = "-520px";
+
+			document.getElementById("testimonials").style.display = "block";
+
+			document.getElementById("media").style.marginTop = "0px";
+
+			document.getElementById("mc_embed_signup").style.marginLeft = "0px";
+
+			document.getElementById("ad2").style.marginTop = "116px";
 /*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="25px 25px 25px 25px";
