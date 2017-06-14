@@ -26,6 +26,8 @@ $(document).ready(function() {
 
 		document.getElementById("menu").style.position = "absolute";
 
+		document.getElementById("pageBody").style.width = '600px';
+
 /*
 		var icons = document.getElementsByTagName("td");
 		icons[0].style.padding ="10px 10px 10px 10px";
@@ -66,6 +68,8 @@ function Resize() {
 
 			document.getElementById("menu").style.position = "absolute";
 
+			document.getElementById("pageBody").style.width = '600px';
+
 /*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="10px 10px 10px 10px";
@@ -98,6 +102,8 @@ function Resize() {
 			document.getElementById('circle').style.marginTop = '150px';
 
 			document.getElementById("menu").style.position = "fixed";
+
+			document.getElementById("pageBody").style.width = '1100px';
 /*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="25px 25px 25px 25px";
