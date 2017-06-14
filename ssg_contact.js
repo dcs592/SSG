@@ -65,20 +65,7 @@ function Resize() {
     else {
     	if (widthcheck==1) {
 
-			document.getElementById('expand').style.display = 'none';
-			var menu = document.getElementsByClassName("full");
-			var i;
-			for (i = 0; i < menu.length; i++) {
-				menu[i].style.display = "inline-block";
-			}
-
-			document.getElementById("pageBody").style.width = "1100 px";
-/*
-			var icons = document.getElementsByTagName("td");
-			icons[0].style.padding ="25px 25px 25px 25px";
-			icons[1].style.padding ="25px 25px 25px 25px";
-			icons[2].style.padding ="25px 25px 25px 25px";
-			*/
+			location.reload();
 		}
 		widthcheck = 0;
     }

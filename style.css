@@ -13,7 +13,7 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  body { zoom: 0.75;
+  body { zoom: 0.7;
   		-moz-transform: scale(0.75); }
 }
 @media screen and (min-width: 901px) {

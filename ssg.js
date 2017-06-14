@@ -90,6 +90,8 @@ function Resize() {
     var w = window.innerWidth;
     if (w<900) {
     	if (widthcheck==0) {
+    		document.getElementById("testimonials").style.display = "none";
+    		/*
 			document.getElementById("circle").style.marginLeft = 'auto';
 			document.getElementById("circle").style.marginRight = 'auto';
 			document.getElementById("circle").style.position = 'relative';
@@ -137,7 +139,7 @@ function Resize() {
 			icons[4].style.display = "inline-block";
 			icons[5].style.padding ="5px 0px 5px 15px";
 			icons[5].style.display = "inline-block";
-*/
+
 
 			document.getElementById('expand').style.display = 'inline-block';
 			var menu = document.getElementsByClassName("full");
@@ -146,6 +148,7 @@ function Resize() {
 				menu[i].style.display = "none";
 			}
 		}
+		*/
 		widthcheck = 1;
     }
     else {

@@ -55,20 +55,7 @@ function Resize() {
     else {
     	if (widthcheck==1) {
 
-			document.getElementById('expand').style.display = 'none';
-			var menu = document.getElementsByClassName("full");
-			var i;
-			for (i = 0; i < menu.length; i++) {
-				menu[i].style.display = "inline-block";
-			}
-			
-			document.getElementById("pageBody").style.width = "1100 px";
-			//document.getElementById("footercontact").style.display = 'block';
-			//document.getElementById("footerlist1").style.display = 'block';
-			//document.getElementById("footerlist2").style.display = 'block';
-
-
-
+			location.reload();
 		}
 		widthcheck = 0;
     }
