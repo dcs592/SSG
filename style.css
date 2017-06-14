@@ -694,7 +694,6 @@ table#footerT {
 table#footerT td a {
 	text-align: center;
 	margin-left: 40px;
-	min-width: 80px;
 	color: #009933;
 }
 

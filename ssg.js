@@ -42,6 +42,13 @@ $(document).ready(function() {
 		document.getElementById("mc_embed_signup").style.marginLeft = "500px";
 
 		document.getElementById("ad2").style.marginTop = "640px";
+		document.getElementById("ad3").style.marginTop = "-400px";
+		document.getElementById("amazonicon").style.marginTop = "415px";
+		document.getElementById("amazonicon").style.marginLeft = "10px";
+		document.getElementById("amazonicon").style.width = "350px";
+		document.getElementById("amazonicon").style.height = "258px";
+
+		document.getElementById("soundcloud").style.marginTop = "-110px";
 
 /*
 		var icons = document.getElementsByTagName("td");
@@ -100,6 +107,14 @@ function Resize() {
 			document.getElementById("mc_embed_signup").style.marginLeft = "500px";
 
 			document.getElementById("ad2").style.marginTop = "640px";
+			document.getElementById("ad3").style.marginTop = "-400px";
+			document.getElementById("amazonicon").style.marginTop = "415px";
+			document.getElementById("amazonicon").style.marginLeft = "10px";
+			document.getElementById("amazonicon").style.width = "350px";
+			document.getElementById("amazonicon").style.height = "258px";
+
+			document.getElementById("soundcloud").style.marginTop = "-110px";
+			document.getElementById("overlay").style.display = "none";
 
 /*
 			var icons = document.getElementsByTagName("td");
