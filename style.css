@@ -461,9 +461,23 @@ table#showT {
 	padding: 5px;
 	margin-right: auto;
 	border: none;
+	margin-left: 150px;
+	width: 580px;
 }
 
 table#showT tr, th, td {
+	padding: 5px;
+	text-align: left;
+}
+
+table#showT2 {
+	font-size: small;
+	padding: 5px;
+	margin-right: auto;
+	border: none;
+}
+
+table#showT2 tr, th, td {
 	padding: 5px;
 	text-align: left;
 }
