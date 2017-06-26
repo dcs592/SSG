@@ -12,15 +12,6 @@ body {
 	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
 }
 
-@media screen and (max-width: 900px) {
-  body { zoom: 0.7;
-  		-moz-transform: scale(0.75); }
-}
-@media screen and (min-width: 901px) {
-  body { zoom: 1.0;	
-  		 -moz-transform: scale(1.0); }
-}
-
 #pageBody {
 	overflow: hidden; 
 	width: 1100px; 
@@ -47,10 +38,27 @@ body {
 	position: absolute;
 }
 
-#main {
-	width: 750px; 
-	margin-left: 100px;
+#mainBody {
+	width: 100%; 
 	overflow: hidden;
+}
+
+#leftAds {
+	width: 120px;
+	height: 730px;
+	position: absolute;
+	float: left;
+}
+
+#centerInfo {
+	width: 680px;
+	padding: 20px 20px 20px 20px;
+}
+
+#rightAds {
+	width: 300px;
+	position: absolute;
+	float: right;
 }
 
 #fb {
@@ -67,78 +75,6 @@ body {
     padding-bottom: 100%;
     visibility: hidden;
     position: relative;
-}
-
-#upperleft {
-	display: inline-block;
-	width: 35%;
-	height: 225px;
-	margin-left: 8%;
-	margin-top: 6%;
-	float: left;
-	background: url(bandwithrick.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-	background-color: #70C68D;
-	background-position: top;
-	border-radius: 15px;
-	border-style: solid;
-	border-width: 3px;
-	border-color: rgb(255, 165, 0);
-}
-
-#upperright { 
-	display: inline-block;
-	width: 35%;
-	height: 225px;
-	margin-right: 8%;
-	margin-top: 6%;
-	float: right;
-	background: url(square.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-	background-color: #70C68D;
-	border-radius: 15px;
-	border-style: solid;
-	border-width: 3px;
-	border-color: rgb(255, 165, 0);
-}
-
-#bottomleft {
-	display: inline-block;
-	width: 35%;
-	height: 225px;
-	margin-top: 6%;
-	margin-left: 8%;
-	float: left;
-	background: url(instruments.gif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-	background-color: #70C68D;
-	border-radius: 15px;
-	border-style: solid;
-	border-width: 3px;
-	border-color: rgb(255, 165, 0);
-}
-
-#bottomright {
-	display: inline-block;
-	width: 35%;
-	height: 225px;
-	margin-top: 6%;
-	margin-right: 8%;
-	float: right;
-	background: url(palmer2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-	background-color: #70C68D;
-	background-position: center;
-	border-radius: 15px;
-	border-style: solid;
-	border-width: 3px;
-	border-color: rgb(255, 165, 0);
 }
 
 .layer {
@@ -275,45 +211,6 @@ table, th, td {
     padding: 25px;
 }
 
-#news {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	height: 8px;
-	background-color: rgb(255, 165, 0);
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-}
-
-#divider2 {
-	position: relative;
-	display: none;
-	width: 100%;
-	height: 8px;
-	background-color: rgb(255, 165, 0);
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	margin: 0 0 3px 0;
-	padding: 0 0 0 0;
-}
-
-#divider3 {
-	position: relative;
-	display: none;
-	width: 100%;
-	height: 8px;
-	background-color: rgb(255, 165, 0);
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	margin: 0 0 4px 0;
-	padding: 0 0 0 0;
-}
-
 #aboutssg {
 	position: relative;
 	display: inline-block;
@@ -340,18 +237,6 @@ table, th, td {
 	padding: 0 0 0 0;
 }
 
-#ssggallery {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	height: 8px;
-	background-color: rgb(255, 165, 0);
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	margin: 0 0 5px 0;
-	padding: 0 0 0 0;
-}
 
 #ssgschedule {
 	position: relative;
@@ -407,9 +292,11 @@ table, th, td {
 }
 
 .footer {
-	width: 100%;
+	width: 1100px;
  	text-decoration: none;
 	color: #70C68D;
+	margin-bottom: 50px; 
+	font-weight: bold;
 }
 
 p a {
@@ -421,105 +308,14 @@ p a:hover{
 	color: #009933;
 }
 
-#footercontact {
-	font-size: x-large;
-	margin-top: 50px;
-	margin-left: 50px;
-	font-weight: bold;
-	position: absolute;
-	width: 30%;
-	line-height: 42px;
-	display: block;
-}
-
-#footerlist1 {
-	font-size: x-large;
-	margin-top: 50px;
-	margin-left: 50%;
-	margin-right: 25px;
-	position: absolute;
-	float: left;
-	width: 15%;
-	font-weight: bold;
-	line-height: 42px;
-	display: block;
-}
-
-#footerlist2 {
-	font-size: x-large;
-	margin-top: 50px;
-	margin-left: 65%;
-	margin-right: 25px;
-	position: absolute;
-	float: left;
-	width: 15%;
-	font-weight: bold;
-	line-height: 42px;
-	display: block;
-}
-
 #bottomlogo {
 	height: 115px;
 	vertical-align: middle;
 } 
 
-#newstable1 {
-	width: 100%;
-	border: 0px;
-	float: left;
-	padding: 0 5% 0 5%;
-	font-size: large;
-}
-
-#newstable2 {
-	width: 100%;
-	border: 0px;
-	float: right;
-	padding: 0 5% 0 5%;
-	font-size: large;
-}
-
-#newstable3 {
-	width: 50%;
-	border: 0px;
-	float: left;
-	padding: 0 8% 0 8%;
-	font-size: large;
-}
-
-#newstable4 {
-	width: 50%;
-	border: 0px;
-	float: right;
-	padding: 0 8% 0 8%;
-	font-size: large;
-}
-
-#newstable1 th {
-	text-decoration: underline;
-	font-size: x-large;
-}
-
-#newstable2 th {
-	text-decoration: underline;
-	font-size: x-large;
-}
-
-#newstable3 th {
-	text-decoration: underline;
-	font-size: x-large;
-	text-align: left;
-}
-
-#newstable4 th {
-	text-decoration: underline;
-	font-size: x-large;
-	text-align: left;
-}
 
 #aboutus {
 	position: relative;
-	margin-top: 5px;
 }
 
 #description {
@@ -543,30 +339,28 @@ p a:hover{
 }
 
 #descimage {
-	width: 40%;
+	width: 450px;
 	padding: 10px 0px 10px 2%;
 	border-radius: 15px;
 	position: relative;
 }
 
 .memberdesc {
-	width: 90%;
+	width: 990px;
 	border-radius: 7px;
-	border: 2px double orange;
+	border: 2px double #44c28f;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 25px;
-    overflow: auto;
     color: black;
 }
 
 .description2 {
-	width: 55%;
-	margin: 55px 0px 10px 40%;
+	width: 460px;
+	margin: 55px 0px 10px 470px;
 	padding-left: 30px;
-	padding-right: 3%;
-	color: white;
+	color: black;
 	font-size: large;
 	float: left;
 	position: absolute;
@@ -592,11 +386,10 @@ p a:hover{
 
 .member {
 	font-size: xx-large;
-	color: white;
+	color: black;
 	text-align: center;
 	margin-top: 10px;
-	margin-left: 40%;
-	padding-left: 30px;
+	margin-left: 490px;
 	position: absolute;
 }
 
@@ -641,22 +434,6 @@ hr {
 	color: black;
 }
 
-#gallery {
-	width: 100%;
-	margin-top: 5px;
-
-}
-
-.image {
-	width: 25%;
-	margin: 10px 10px 10px 10px;
-}
-
-#image1 {
-	width: 50%;
-	margin: 10px 10px 10px 10px;
-}
-
 #newsection2 {
 	width: 100%;
 	margin: 10px 0 0 0;
@@ -680,11 +457,10 @@ hr {
 }
 
 table#showT {
-	width: 80%;
-	font-size: large;
+	font-size: small;
 	padding: 5px;
-	margin-left: 170px;
 	margin-right: auto;
+	border: none;
 }
 
 table#showT tr, th, td {
@@ -791,3 +567,4 @@ margin:0 auto;
   width:940px;
 
 }
+

@@ -90,8 +90,7 @@ function Resize() {
     var w = window.innerWidth;
     if (w<900) {
     	if (widthcheck==0) {
-    		document.getElementById("testimonials").style.display = "none";
-    		/*
+
 			document.getElementById("circle").style.marginLeft = 'auto';
 			document.getElementById("circle").style.marginRight = 'auto';
 			document.getElementById("circle").style.position = 'relative';
@@ -148,7 +147,7 @@ function Resize() {
 				menu[i].style.display = "none";
 			}
 		}
-		*/
+
 		widthcheck = 1;
     }
     else {
