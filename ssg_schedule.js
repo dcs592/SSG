@@ -18,7 +18,7 @@ $(document).ready(function() {
 	if (w < 900) {
 		widthcheck = 1;
 
-		document.getElementById('expand').style.display = 'inline-block';
+		document.getElementById("expand").style.display = 'inline-block';
 		var menu = document.getElementsByClassName("full");
 		var i;
 		for (i = 0; i < menu.length; i++) {
