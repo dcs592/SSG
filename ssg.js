@@ -124,6 +124,7 @@ function Resize() {
 			document.getElementById("soundcloud").style.marginTop = "-110px";
 			document.getElementById("overlay").style.display = "none";
 
+
 /*
 			var icons = document.getElementsByTagName("td");
 			icons[0].style.padding ="10px 10px 10px 10px";
@@ -145,7 +146,7 @@ function Resize() {
 			var i;
 			for (i = 0; i < menu.length; i++) {
 				menu[i].style.display = "none";
-			}
+			}*/
 		}
 
 		widthcheck = 1;
