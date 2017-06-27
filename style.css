@@ -582,3 +582,64 @@ margin:0 auto;
 
 }
 
+.bandBoxes {
+	display: inline-block;
+	margin: 5px 0px 5px 10px;
+	height: 225px;
+	width: 310px;
+	position: relative; 
+	z-index: 2;
+	overflow: hidden;
+	color: white;
+	opacity: .8;
+}
+
+#clickable1 {
+	font-size: 50px;
+	color: #cccccc;
+	z-index: 5;
+	position: absolute;
+	margin-top: 120px;
+	margin-bottom: 0px;
+	opacity: 1.0;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#clickable2 {
+	font-size: 50px;
+	color: #cccccc;
+	z-index: 5;
+	position: absolute;
+	margin-top: 120px;
+	margin-bottom: 0px;
+	opacity: 1.0;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#clickable3 {
+	font-size: 50px;
+	color: #cccccc;
+	z-index: 5;
+	position: absolute;
+	margin-top: 120px;
+	margin-bottom: 0px;
+	opacity: 1.0;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#clickable4 {
+	font-size: 50px;
+	color: #cccccc;
+	z-index: 5;
+	position: absolute;
+	margin-top: 120px;
+	margin-bottom: 0px;
+	opacity: 1.0;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+
