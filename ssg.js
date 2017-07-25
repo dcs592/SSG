@@ -1,4 +1,4 @@
-
+/*
 widthcheck = 0;
 
 function expandMenu() {
@@ -78,7 +78,7 @@ $(document).ready(function() {
 			menu[i].style.display = "none";
 		}
 
-		*/
+		
 
 	}
 	else {
@@ -146,7 +146,7 @@ function Resize() {
 			var i;
 			for (i = 0; i < menu.length; i++) {
 				menu[i].style.display = "none";
-			}*/
+			}
 		}
 
 		widthcheck = 1;
@@ -158,7 +158,7 @@ function Resize() {
 		widthcheck = 0;
     }
 }
-
+*/
 function initQuoteCarousel() {
 
     var $quotesWrapper = $(".cust-quotes");
@@ -184,4 +184,4 @@ $(function () {
 });
 
 
-window.addEventListener("resize", Resize);
+//window.addEventListener("resize", Resize);
